@@ -71,9 +71,3 @@ sudo snap install --classic code
 code --install-extension marus25.cortex-debug
 code --install-extension ms-vscode.cmake-tools
 code --install-extension ms-vscode.cpptools
-
-
-Resources:
-https://www.hashdefineelectronics.com/compiling-and-installing-openocd-with-cmcsis-dap-support/
-https://dev.to/admantium/raspberry-pico-simple-debugging-with-just-one-device-4ce7
-https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh
