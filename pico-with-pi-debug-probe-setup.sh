@@ -12,6 +12,9 @@ cd pico
 git clone https://github.com/LucasOpoka/Minimalist-Pi-Pico-Toolchain.git blinky
 
 git clone -b master https://github.com/raspberrypi/pico-sdk.git
+cd pico-sdk
+git submodule update --init
+cd ..
 
 ## 3. Install SDK dependencies
 sudo apt update
@@ -35,7 +38,7 @@ sudo rm -R hidapi
 ## 6. Install OPENOCD
 cd ~
 git clone https://github.com/raspberrypi/openocd.git --branch rp2040 --depth=1
-//git clone git://repo.or.cz/openocd.git
+
 cd openocd
 ./bootstrap
 ./configure --enable-cmsis-dap
