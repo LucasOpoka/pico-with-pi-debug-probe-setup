@@ -6,6 +6,8 @@ wget https://raw.githubusercontent.com/LucasOpoka/pico-with-pi-debug-probe-setup
 chmod +x pico-with-pi-debug-probe-setup.sh\
 . ./pico-with-pi-debug-probe-setup.sh\
 \
+After the script executed navigate to your blinky directory and run the following to open the test project in VSCode:\
+code .\
 \
 Resources:\
 https://www.hashdefineelectronics.com/compiling-and-installing-openocd-with-cmcsis-dap-support \
