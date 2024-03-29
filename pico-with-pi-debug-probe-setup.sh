@@ -44,6 +44,7 @@ cd openocd
 ./configure --enable-cmsis-dap
 make
 sudo make install
+cd ~
 
 ## 7. Define PICO_SDK_PATH and OPENOCD_TCL_PATH
 echo "export PICO_SDK_PATH=/home/$USER/pico/pico-sdk" >> ~/.bashrc
