@@ -22,7 +22,7 @@ After the script executed navigate to your blinky directory and run the followin
 ```
 code .
 ```
-Once the CMake extansion for VSCode asks you if you want to configure the project click yes. When asked which kit to use choose GCC for arm-non-eabi.\
+Once the CMake extansion for VSCode asks you if you want to configure the project click yes. When asked which kit to use choose GCC for arm-non-eabi.
 
 \
 Resources:\
