@@ -23,8 +23,7 @@ After the script executed navigate to your blinky directory and run the followin
 code .
 ```
 Once the CMake extansion for VSCode asks you if you want to configure the project click yes. When asked which kit to use choose GCC for arm-non-eabi.\
-Afterwards power the Pico and connect the Pi Debug Probe to it through the SWD port. Then connect the Pi Debug Probe via USB to your computer. Next, click on the Run and Debug button in the right pane of VSCode and then on the green arrow in that menu to run the blinky project on the Pi Pico with debugging.\
-
+Afterwards power the Pico and connect the Pi Debug Probe to it through the SWD port. Then connect the Pi Debug Probe via USB to your computer. Next, click on the Run and Debug button in the right pane of VSCode and then on the green arrow in that menu to run the blinky project on the Pi Pico with debugging.
 \
 Resources:\
 https://www.hashdefineelectronics.com/compiling-and-installing-openocd-with-cmcsis-dap-support \
